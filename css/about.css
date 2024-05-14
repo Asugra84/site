@@ -1,0 +1,14 @@
+.container {
+    max-width: 800px; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 0 20px; /* Ajoute un espace intérieur à gauche et à droite */
+}
+
+
+.content {
+    padding: 40px 0; /* Ajoute de l'espace au-dessus et en dessous du contenu */
+}
+.toSpace {
+    margin-bottom: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,185 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Gris très foncé */
+    color: #888; /* Couleur de texte légèrement plus foncée */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #1a1a1a; /* Noir */
+    color: inherit; /* Utilise la couleur du texte du parent (body) */
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit; /* Utilise la couleur du texte du parent (body) */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f00;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: inherit; /* Utilise la couleur du texte du parent (body) */
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #1a1a1a; /* Gris très foncé */
+    color: inherit; /* Utilise la couleur du texte du parent (body) */
+}
+
+form button {
+    background-color: #f00;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+footer {
+    position: fixed; /* Position fixe */
+    left: 0; /* Aligner à gauche */
+    bottom: 0; /* Aligner en bas */
+    width: 100%; /* Largeur pleine */
+    background-color: #1a1a1a; /* Couleur de fond */
+    color: inherit; /* Utilise la couleur du texte du parent (body) */
+    text-align: center; /* Centrer le contenu */
+    padding: 20px 0; /* Espacement intérieur */
+}
+
+/* Ajoutez ces styles pour simuler l'apparence d'un terminal */
+@keyframes terminal-type {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes terminal-blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Ajoutez ces styles pour placer le terminal en dessous de la barre noire */
+.terminal {
+    background-color: #1a1a1a;
+    color: inherit; /* Utilise la couleur du texte du parent (body) */
+    text-align: left;
+    padding: 20px 0;
+}
+
+.terminal h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Pour centrer l'image ronde */
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   /* Hauteur égale à la hauteur de la fenêtre */
+    text-align: center; /* Pour centrer l'image horizontalement */
+}
+
+.profile-picture {
+    width: 200px; /* Ajustez la largeur selon vos besoins */
+    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    object-fit: cover; /* Assurez-vous que l'image couvre complètement le conteneur */
+    border-radius: 50%; /* Rendre l'image ronde */
+    margin-bottom: 10px; /* Déplacez l'image vers le haut */
+}
+#hero h2 {
+    font-size: 40px; /* Taille de la police */
+    color: #888; /* Couleur du texte */
+    margin-bottom: 15px; /* Déplacez l'image vers le haut */
+
+}
+#hero p {
+    font-size: 20px; /* Taille de la police */
+    color: #888; /* Couleur du texte */
+
+}
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 20%;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px; /* Espacement entre les icônes */
+}
+
+.social-icons img {
+    width: 30px; /* Ajustez la taille des icônes selon vos besoins */
+    height: auto;
+}
